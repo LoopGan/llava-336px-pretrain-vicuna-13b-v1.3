@@ -8,8 +8,6 @@
   "freeze_mm_mlp_adapter": false,
   "hidden_act": "silu",
   "hidden_size": 5120,
-  "image_aspect_ratio": "square",
-  "image_grid_pinpoints": null,
   "initializer_range": 0.02,
   "intermediate_size": 13824,
   "max_position_embeddings": 2048,
@@ -29,8 +27,7 @@
   "torch_dtype": "float16",
   "transformers_version": "4.31.0.dev0",
   "tune_mm_mlp_adapter": true,
-  "tune_mm_vision_resampler": false,
-  "use_cache": false,
+  "use_cache": true,
   "use_mm_proj": true,
   "vocab_size": 32000
 }
